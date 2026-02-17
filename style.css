@@ -1,0 +1,215 @@
+/* ===== GLOBAL ===== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #f4f6f9;
+}
+
+/* ===== HEADER ===== */
+.header {
+    background: linear-gradient(90deg,#3b7ddd,#2c6bd6);
+    color: white;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LOGO + TITLE */
+.logo-area{
+    display:flex;
+    align-items:center;
+    gap:0.000000001px;
+    text-decoration:none;
+    color:white;
+}
+
+.header-logo{
+    width:60px;
+    height:60px;
+    object-fit:contain;
+}
+
+/* Logout button */
+.logout-btn{
+    background:white;
+    color:#2c6bd6;
+    padding:7px 14px;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+
+.profile-menu img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background: #2c6bd6;
+    padding: 12px 25px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* ===== PAGE CONTAINER ===== */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* ===== CARDS ===== */
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: block;
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #2c6bd6;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+/* ===== BUTTONS ===== */
+.btn {
+    display: inline-block;
+    background: #2c6bd6;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #1f52a8;
+}
+
+/* ===== BACK BUTTON ===== */
+.back-btn {
+    background: #dcdcdc;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    background: #2c6bd6;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 60px;
+}
+
+/* ===== FORM ===== */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* ===== LOGIN PAGE ===== */
+
+.login-body{
+    margin:0;
+    height:100vh;
+    font-family: Arial, sans-serif;
+}
+
+.login-wrapper{
+    height:100vh;
+    background:url("login-bg.jpg") center/cover no-repeat;
+    display:flex;
+    align-items:center;
+    padding-left:80px;
+}
+
+.login-left{
+    color:white;
+}
+
+.logo{
+    width:70px;
+    margin-bottom:20px;
+}
+
+.login-left h1{
+    font-size:50px;
+    letter-spacing:5px;
+    margin:0;
+}
+
+.tagline{
+    margin:15px 0 30px;
+    opacity:0.9;
+}
+
+.login-left form{
+    display:flex;
+    gap:10px;
+}
+
+.login-left input{
+    padding:12px;
+    width:240px;
+    border:none;
+    border-radius:5px;
+}
+
+.login-left button{
+    padding:12px 20px;
+    border:none;
+    border-radius:20px;
+    background:white;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+
+
+/* doctor search bar */
+.doctor-search-wrap{
+    display:flex;
+    justify-content:flex-end;
+    margin:10px 0 20px;
+}
+
+#docterSearch,
+#doctorSearch{
+    padding:8px 10px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    width:230px;
+}
